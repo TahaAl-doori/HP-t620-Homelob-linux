@@ -1,1 +1,18 @@
+# HP-t620-Homelob-linux
+Projekt: HomeLab-Server Einrichtung auf HP t620
 
+Beschreibung: 
+In diesem projekt habe ich einen HP t620 Thin cilent erfolgreich 
+in einem Funktionalen Home-Server Verwandelt. Ziel war es, eine
+stabile Virtualisierungsumgebung mit minimalen Hardware Ressourcen
+zu Schaffen.
+
+Technische Details: 
+Betriebssystem (Host):Linux Mint 22.
+Virtualisierung:Ubuntu Server 24.04 lauft unter KVM/QEMU.
+Ressourcen-Optimierung:Dynamische RAM-Zuweisung (2GB-3GB),um Systemabsturze bei hoher Auslastung zu vermeiden
+Systemverwaltung: Uberwachung und Verwaltung der dienste uber die Cockpit-Webkonsole.
+
+Problemlosung: 
+Behebung von Systemverzogenerungen durch prazise Ressourcensteuerung des Prozessors und speichers
+Losung von Browser-Kompbatibilitatsproblemen fur die Remote-Verwaltung (Wechsel zu Firefox fur mehr Stabilitat).
